@@ -1,0 +1,27 @@
+body {
+	display: inline-flex;
+}
+#info {
+	margin-top: 2px;
+	margin-right: 50px;
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+}
+#info p {
+	padding-left: 10px;
+}
+
+#table {
+	display: inline-flex;
+	flex-wrap: wrap;
+}
+.cell {
+	width: 30px;
+	height: 30px;
+	border: 4px solid black;
+	margin: -2px;
+	font-size: 26px;
+	font-weight: bold;
+	text-align: center;
+}

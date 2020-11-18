@@ -1,6 +1,20 @@
 body {
 	display: inline-flex;
 }
+#alert {
+	position: absolute;
+	left: 50%;
+	top: 30px;
+	background: red;
+	color: white;
+	text-align:center;
+	padding: 20px;
+	font-size: 24px;
+	border-radius: 3px;
+	transform: translate(-30%,0);
+	transition: 0.4s;
+	opacity: 0;
+}
 #info {
 	margin-top: 2px;
 	margin-right: 50px;
@@ -19,9 +33,25 @@ body {
 .cell {
 	width: 30px;
 	height: 30px;
-	border: 4px solid black;
-	margin: -2px;
+	border: 2px solid black;
+	margin: 0;
 	font-size: 26px;
 	font-weight: bold;
 	text-align: center;
+}
+#skipMove {
+	font-size: 20px;
+	padding: 10px;
+	width: 140px;
+	margin-left: 10px;
+	margin-top: 20px;
+	border: 1px solid black;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+#skipMove:hover {
+	color: white;
+	background: gray;
+	transition: 0.2s;
 }
